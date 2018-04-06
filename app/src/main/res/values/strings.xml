@@ -1,0 +1,15 @@
+<resources>
+
+    /////////////////////////////////////////////////////////////////////////
+
+    <string name="app_name">Acerca de</string>
+    <string name="nombre">Kevin Alexander Clemente Ramírez</string>
+    <string name="carrera">Ingenieria Informática </string>
+    <string name="facebook">Kevin Clemente</string>
+    <string name="twitter">@Clemente29</string>
+    <string name="github">KevinClemente</string>
+    <string name="instagram">KR_Clemente</string>
+    <string name="telefono">79219494</string>
+    <string name="correo">00125016@uca.edu.sv</string>
+    <string name="compartir_texto_boton">COMPARTIR</string>
+</resources>

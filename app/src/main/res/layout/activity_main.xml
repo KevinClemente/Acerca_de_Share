@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.example.carlos.acercade.MainActivity">
+
+    <!--layout PRINCIPAL-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!--IMAGEN-->
+        <ImageView
+            android:id="@+id/perfil_layout"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/perfil" />
+        <!--IMAGEN-->
+
+        <!--layout TEXTO-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20sp"
+            android:orientation="vertical">
+
+            <!--NOMBRE-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/nombre"
+                android:textSize="15dp"
+                android:id="@+id/TextViewNombre"
+
+                />
+            <!--NOMBRE-->
+
+            <!--CARRERA-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10sp"
+                android:text="@string/carrera"
+                android:textSize="15dp"
+                android:id="@+id/TextViewCarrera"
+                />
+            <!--CARRERA-->
+
+        </LinearLayout>
+        <!--layout TEXTO-->
+
+        <!--layout REDES SOCIALES-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <!--FACEBOOK Y TWITTER-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30sp"
+                android:orientation="horizontal">
+
+                <!--FACEBOOK-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/facebook" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:text="@string/facebook"
+                        android:id="@+id/TextViewFacebook"
+                        />
+
+                </LinearLayout>
+                <!--FACEBOOK-->
+
+                <!--TWITTER-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="80dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/twitter" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="15dp"
+                        android:layout_gravity="center"
+                        android:text="@string/twitter"
+                        android:id="@+id/TextViewTwitter"
+                        />
+
+                </LinearLayout>
+                <!--TWITTER-->
+
+            </LinearLayout>
+            <!--FACEBOOK Y TWITTER-->
+
+            <!--GITHUB E INSTAGRAM-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30sp"
+                android:orientation="horizontal">
+
+                <!--GITHUB-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        app:srcCompat="@drawable/git" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/github"
+                        android:id="@+id/TextViewGithub"
+                        />
+
+                </LinearLayout>
+                <!--GITHUB-->
+
+                <!--INSTAGRAM-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="80dp"
+                        app:srcCompat="@drawable/instagram"
+
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/instagram"
+                        android:id="@+id/TextViewInstagram"
+
+                        />
+
+                </LinearLayout>
+                <!--INSTAGRAM-->
+
+            </LinearLayout>
+            <!--GITHUB E INSTAGRAM-->
+
+
+        </LinearLayout>
+        <!--layout REDES SOCIALES-->
+
+        <!--layout TELEFONO CORREO Y POWERED BY -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <!--TELEFONO-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/telefono"
+                android:textSize="15dp"
+                android:id="@+id/TextViewTelefono"
+                />
+            <!--TELEFONO-->
+
+            <!--CORREO-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="30sp"
+                android:text="@string/correo"
+                android:textSize="15dp"
+                android:id="@+id/TextViewCorreo"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <!--BOTON COMPARTIR-->
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/compartir_texto_boton"
+                android:id="@+id/boton_compartir_layout"/>
+            <!--BOTON COMPARTIR-->
+
+        </LinearLayout>
+        <!--layout BOTON COMPARTIR-->
+
+    </LinearLayout>
+    <!--layout PRINCIPAL-->
+
+</LinearLayout>
+
